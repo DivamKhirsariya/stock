@@ -12,7 +12,7 @@ from pyportfolioopt import EfficientFrontier, risk_models, expected_returns
 
 # Configuration
 TICKER = "AAPL"
-START_DATE = "2010-01-01"
+START_DATE = "2010-01-02"
 END_DATE = "2023-12-31"
 LOOKBACK_WINDOW = 60  # Using 60 trading days (~3 months) as historical context
 PREDICTION_HORIZON = 10  # Predict next 10 days
